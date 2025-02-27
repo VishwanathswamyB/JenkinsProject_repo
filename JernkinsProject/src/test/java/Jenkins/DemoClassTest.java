@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class DemoClassTest {
 	@Test
-	public static void main(String[] args) {
+	public void demo() {
 		WebDriver driver = new ChromeDriver();
 		Reporter.log("first script for jenkins",true);
 	}
