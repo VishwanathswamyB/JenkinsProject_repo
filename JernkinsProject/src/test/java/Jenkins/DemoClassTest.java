@@ -10,7 +10,6 @@ public class DemoClassTest {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		Reporter.log("first script for jenkins",true);
-		
 	}
 
 }
